@@ -21,5 +21,15 @@ namespace HelloWorldWinform
         {
             button1.Text = "쾅!";
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void contextMenuStrip3_Opening(object sender, CancelEventArgs e)
+        {
+
+        }
     }
 }
