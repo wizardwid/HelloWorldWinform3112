@@ -8,18 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace HelloWorldWinform
+namespace HelloWorldWindowForm
 {
-    public partial class Form1: Form
+    public partial class Form1 : Form
     {
         public Form1()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            button1.Text = "쾅!";
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -27,9 +22,19 @@ namespace HelloWorldWinform
 
         }
 
-        private void contextMenuStrip3_Opening(object sender, CancelEventArgs e)
+        private void button1_Click(object sender, EventArgs e)
+        {
+            button1.Text = "쾅!";
+        }
+
+        private void lblTitle_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void exit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

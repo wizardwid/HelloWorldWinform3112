@@ -1,4 +1,7 @@
-﻿namespace HelloWorldWinform
+﻿using System;
+using System.ComponentModel;
+
+namespace HelloWorldWindowForm
 {
     partial class Form1
     {
@@ -103,6 +106,11 @@
             this.ResumeLayout(false);
             this.PerformLayout();
 
+        }
+
+        private void contextMenuStrip3_Opening(object sender, CancelEventArgs e)
+        {
+            throw new NotImplementedException();
         }
 
         #endregion
