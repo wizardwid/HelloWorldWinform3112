@@ -47,5 +47,15 @@ namespace HelloWorldWindowForm
             formAbout2.Text = "모달리스창(Medeless)";
             formAbout2.ShowDialog();
         }
+
+        private void groupBox2_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
