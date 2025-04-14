@@ -3,7 +3,7 @@ using System.ComponentModel;
 
 namespace HelloWorldWindowForm
 {
-    partial class Form1
+    partial class FormMain
     {
         /// <summary>
         /// 필수 디자이너 변수입니다.
@@ -41,6 +41,7 @@ namespace HelloWorldWindowForm
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.메뉴ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.도움말ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.정보ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contextMenuStrip3.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -115,11 +116,19 @@ namespace HelloWorldWindowForm
             // 
             // 도움말ToolStripMenuItem1
             // 
+            this.도움말ToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.정보ToolStripMenuItem});
             this.도움말ToolStripMenuItem1.Name = "도움말ToolStripMenuItem1";
             this.도움말ToolStripMenuItem1.Size = new System.Drawing.Size(55, 20);
             this.도움말ToolStripMenuItem1.Text = "도움말";
             // 
-            // Form1
+            // 정보ToolStripMenuItem
+            // 
+            this.정보ToolStripMenuItem.Name = "정보ToolStripMenuItem";
+            this.정보ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.정보ToolStripMenuItem.Text = "정보";
+            // 
+            // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -128,7 +137,7 @@ namespace HelloWorldWindowForm
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Name = "Form1";
+            this.Name = "FormMain";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.contextMenuStrip3.ResumeLayout(false);
@@ -155,6 +164,7 @@ namespace HelloWorldWindowForm
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem 메뉴ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 도움말ToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem 정보ToolStripMenuItem;
     }
 }
 
