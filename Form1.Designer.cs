@@ -38,7 +38,11 @@ namespace HelloWorldWindowForm
             this.파일ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.도움말ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helloworld정보ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.메뉴ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.도움말ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.contextMenuStrip3.SuspendLayout();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -68,7 +72,7 @@ namespace HelloWorldWindowForm
             this.contextMenuStrip3.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.파일ToolStripMenuItem1});
             this.contextMenuStrip3.Name = "contextMenuStrip3";
-            this.contextMenuStrip3.Size = new System.Drawing.Size(181, 48);
+            this.contextMenuStrip3.Size = new System.Drawing.Size(99, 26);
             this.contextMenuStrip3.Opening += new System.ComponentModel.CancelEventHandler(this.contextMenuStrip3_Opening);
             // 
             // 파일ToolStripMenuItem1
@@ -77,32 +81,59 @@ namespace HelloWorldWindowForm
             this.도움말ToolStripMenuItem,
             this.helloworld정보ToolStripMenuItem});
             this.파일ToolStripMenuItem1.Name = "파일ToolStripMenuItem1";
-            this.파일ToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.파일ToolStripMenuItem1.Size = new System.Drawing.Size(98, 22);
             this.파일ToolStripMenuItem1.Text = "파일";
             // 
             // 도움말ToolStripMenuItem
             // 
             this.도움말ToolStripMenuItem.Name = "도움말ToolStripMenuItem";
-            this.도움말ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.도움말ToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
             this.도움말ToolStripMenuItem.Text = "도움말";
             // 
             // helloworld정보ToolStripMenuItem
             // 
             this.helloworld정보ToolStripMenuItem.Name = "helloworld정보ToolStripMenuItem";
-            this.helloworld정보ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.helloworld정보ToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
             this.helloworld정보ToolStripMenuItem.Text = "helloworld 정보";
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.메뉴ToolStripMenuItem,
+            this.도움말ToolStripMenuItem1});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(522, 24);
+            this.menuStrip1.TabIndex = 2;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // 메뉴ToolStripMenuItem
+            // 
+            this.메뉴ToolStripMenuItem.Name = "메뉴ToolStripMenuItem";
+            this.메뉴ToolStripMenuItem.Size = new System.Drawing.Size(43, 20);
+            this.메뉴ToolStripMenuItem.Text = "메뉴";
+            // 
+            // 도움말ToolStripMenuItem1
+            // 
+            this.도움말ToolStripMenuItem1.Name = "도움말ToolStripMenuItem1";
+            this.도움말ToolStripMenuItem1.Size = new System.Drawing.Size(55, 20);
+            this.도움말ToolStripMenuItem1.Text = "도움말";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(522, 400);
+            this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.contextMenuStrip3.ResumeLayout(false);
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -121,6 +152,9 @@ namespace HelloWorldWindowForm
         private System.Windows.Forms.ToolStripMenuItem 파일ToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem 도움말ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem helloworld정보ToolStripMenuItem;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem 메뉴ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 도움말ToolStripMenuItem1;
     }
 }
 
