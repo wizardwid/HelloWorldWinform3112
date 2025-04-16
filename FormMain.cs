@@ -1,5 +1,4 @@
-﻿using HelloWorldWinform;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -9,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace HelloWorldWindowForm
+namespace HelloWorldWinform
 {
     public partial class FormMain : Form
     {
@@ -18,19 +17,9 @@ namespace HelloWorldWindowForm
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
-            button1.Text = "쾅!";
-        }
-
-        private void lblTitle_Click(object sender, EventArgs e)
-        {
-
+            lblTitle.Text = "쾅!";
         }
 
         private void exit_Click(object sender, EventArgs e)
@@ -38,22 +27,21 @@ namespace HelloWorldWindowForm
             Application.Exit();
         }
 
-        private void 헬로월드정보ToolStriptMenuitem_Click(Object sender, EventArgs e)
+        private void 헬로월드정보ToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            // 모달창
             Form formAbout1 = new FormAbout();
             formAbout1.Text = "모달창(Modal)";
             formAbout1.ShowDialog();
+
+            // 모달리스창
             Form formAbout2 = new FormAbout();
             formAbout2.Text = "모달리스창(Medeless)";
-            formAbout2.ShowDialog();
-        }
-
-        private void groupBox2_Enter(object sender, EventArgs e)
-        {
+            formAbout2.Show();
 
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void ㅍToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
         }

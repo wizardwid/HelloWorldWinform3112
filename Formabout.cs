@@ -10,29 +10,19 @@ using System.Windows.Forms;
 
 namespace HelloWorldWinform
 {
-    public partial class FormAbout: Form
+    public partial class FormAbout : Form
     {
         public FormAbout()
         {
             InitializeComponent();
         }
 
-        private void FormAbout_Load(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
-        {
-
-        }
-
-        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            System.Diagnostics.Process.Start("https://github.com/wizardwid");
-        }
-
-        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        private void ㅊ(object sender, EventArgs e)
         {
 
         }
@@ -41,5 +31,11 @@ namespace HelloWorldWinform
         {
             this.Close();
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("\"c:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\"", "https://github.com/progh2 --incognito");
+        }
+
     }
 }

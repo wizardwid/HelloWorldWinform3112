@@ -121,7 +121,7 @@
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAYAAAA+s9J6AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wgAADsIBFShKgAAA/7JJREFUeF6svXd8W/eB5Zt9b3dnJpPEcZPVC3vvvffeKwiwgABJkARIsPfeey9i
+        wQAADsEBuJFr7QAA/7JJREFUeF6svXd8W/eB5Zt9b3dnJpPEcZPVC3vvvffeKwiwgABJkARIsPfeey9i
         ESmJ6lTvXbIkW8VFluVeEttxnB6nzc5mZnfPO79LUVISezZv3/vjfC5wedF/39855+Li8js/+MEPIOSZ
         HAmPpAi4JYTBNT4UbpRnYgR8UqPhlxaLoMwk+Cvi4SOLgVdKlCRxWazz49/sU6JhmRQJ49hgbInww/ow
         H6wNpcJ9sTbCH+uo5wM98YK/J9YF+2J9kB9e8vXCWso4wAeyvHTUNOoxPN6Gqe0dmJ1px9LOLizv7cXR
@@ -2534,16 +2534,8 @@
         wSqNOa6G1+n+r+0uQBu1j9qGcEc72tGz0Q6EO9rRM9Uu/AOdkB5p018uogAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="richTextBox1.Text" xml:space="preserve">
-    <value>Lirilí Larilà, elefante nel deserto che cammina quà e là con la sua conchiglia e l'orologio che fa tic tac.
-
-Le spine del cactus mi fanno un attacco flashback.
-
-Arriva zio Ramon con una mongolfiera blu, dice: "Che fai qui? Mi piace pure il WiFi, tu?"
-
-Lo rispondo senza fiatob: "sto solo cercando di capire come un cactus con sandali possa anche vestire!"
-
-리릴리 라릴라, 사막 여기저기를 걸어다니는 코끼리이다. 껍데기와 째깍이는 시계를 가지고 있다.
+  <data name="label1.Text" xml:space="preserve">
+    <value>리릴리 라릴라, 사막 여기저기를 걸어다니는 코끼리이다. 껍데기와 째깍이는 시계를 가지고 있다.
 
 선인장 가시는 내게 끔찍한 기억을 떠올리게 만든다.
 
@@ -2551,7 +2543,4 @@ Lo rispondo senza fiatob: "sto solo cercando di capire come un cactus con sandal
 
 나는 숨도 못 쉬고 말했다: "전 지금 샌들을 신은 선인장이 어떻게 옷도 입을 수 있는지 이해가 안 돼요!"</value>
   </data>
-  <metadata name="contextMenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
 </root>
